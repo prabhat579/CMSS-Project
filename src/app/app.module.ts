@@ -25,6 +25,7 @@ import { ApplyLeaveComponent } from './component/apply-leave/apply-leave.compone
 import { HolidayCalenderComponent } from './component/holiday-calender/holiday-calender.component';
 import { RegularizeAttendanceComponent } from './component/regularize-attendance/regularize-attendance.component';
 import {MatSnackBarModule} from '@angular/material/snack-bar';
+import { NavbarComponent } from './component/navbar/navbar.component';
 
 @NgModule({
   declarations: [
@@ -41,6 +42,7 @@ import {MatSnackBarModule} from '@angular/material/snack-bar';
     ApplyLeaveComponent,
     HolidayCalenderComponent,
     RegularizeAttendanceComponent,
+    NavbarComponent,
   ],
   imports: [
     BrowserModule,
