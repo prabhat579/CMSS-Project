@@ -1,0 +1,9 @@
+[
+    {"leaveId": 1,"leaveType":"Leave Without Pay" , "startDate":"03 Sep" ,"endDate":"07 Sep" ,"leaveStatus":"In-Process"},
+    {"leaveId": 2,"leaveType":"Could Not Sign in" , "startDate":"25 Aug" ,"endDate":"25 Aug" ,"leaveStatus":"In-Process"},
+    {"leaveId": 3,"leaveType":"Leave Without Pay" , "startDate":"03 Jul" ,"endDate":"07 Jul" ,"leaveStatus":"Rejected"},
+    {"leaveId": 4,"leaveType":"Paid Leave" , "startDate":"25 Jun" ,"endDate":"25 Jun" ,"leaveStatus":"Approved"},
+    {"leaveId": 5,"leaveType":"Leave Without Pay" , "startDate":"03 May" ,"endDate":"07 May" ,"leaveStatus":"Rejected"},
+    {"leaveId": 6,"leaveType":"Paid Leave" , "startDate":"06 Sep" ,"endDate":"08 Sep" ,"leaveStatus":"In-Process"}
+
+]

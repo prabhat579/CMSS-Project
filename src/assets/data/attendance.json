@@ -1,0 +1,9 @@
+
+[
+    {"a_Id": 1,"a_WeekDay":"Friday" , "a_Date":"03 Sep" ,"a_reason":"In-Process", "a_type":"Present"},
+    {"a_Id": 2,"a_WeekDay":"Monday" , "a_Date":"25 Aug" ,"a_reason":"In-Process", "a_type":"Absent"},
+    {"a_Id": 3,"a_WeekDay":"Tuesdayu" , "a_Date":"03 Jul"  ,"a_reason":"Rejected", "a_type":"Absent"},
+    {"a_Id": 4,"a_WeekDay":"Thursday" , "a_Date":"25 Jun" ,"a_reason":"Approved", "a_type":"Present"},
+    {"a_Id": 5,"a_WeekDay":"Friday" , "a_Date":"03 May" ,"a_reason":"Rejected", "a_type":"Present"},
+    {"a_Id": 6,"a_WeekDay":"Saturday" , "a_Date":"06 Sep"  ,"a_reason":"In-Process", "a_type":"Absent"}
+]

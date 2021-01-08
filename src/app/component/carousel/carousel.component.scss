@@ -1,0 +1,34 @@
+.carousel-inner{
+    height: 500px;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+
+
+.left_btn{
+ 
+    position: absolute;
+    left: 0;
+     height: 20px;
+    margin-top: -300px;
+      z-index: 1;
+      padding-left: 130px;
+      font-size: 80px;
+     
+  }
+  .right_btn{
+  
+  position: absolute;
+  right: 0;
+   height: 20px;
+  margin-top: -300px;
+    z-index: 1;
+    padding-right: 130px;
+    font-size: 80px;
+   
+  }
+  span{
+      font-size: 50px;
+  }

@@ -1,0 +1,59 @@
+<div style="padding-top: 20px;" >
+
+<mat-tab-group mat-align-tabs="center" style="width: 70%;margin-left:15%; margin-right: 15%; ">
+    <!-- Tab 1 -->
+    <mat-tab label="LEAVES" >
+       <div *ngFor='let leave of leaveData ' [attr.leaveId]="leave.leaveId" style="margin-left:20%; margin-right: 20%; padding: 20px; display: flex; flex-direction: row;">
+       
+        <mat-card  class="card"> <b>{{leave.startDate}}</b></mat-card>
+        <div style="padding-left :40px; width: 200px;"> 
+            <span style="color: rgb(69, 75, 74);"><b>{{leave.leaveType}}</b></span><br>
+            <span style="color: orange;"><b>{{leave.startDate}} -  {{leave.endDate}}</b></span><br>
+            <span>{{leave.leaveStatus}}</span>
+            <!-- <span><b>{{leave.leaveType}}</b></span> -->
+        </div>
+        <div style=" padding-left:40px; margin-top:5px" >
+            <button style="color: red;" mat-button [matMenuTriggerFor]="menu" #menuTrigger><span class="material-icons">
+                cancel
+                </span></button>
+            <mat-menu #menu="matMenu">
+                
+                <button mat-button (click)="openDialog()"> Do you want to cancel Leave ?</button><br>
+                
+                 <div style="margin-left: 20px;">
+                  <button leaveId="remove" (click)="deleteRow(leave.leaveId)" mat-raised-button>Yes</button>&nbsp;
+                  <button style="margin-left: 20px;" mat-raised-button>No</button>
+                </div>
+             
+            </mat-menu>
+               
+        </div>
+       
+
+       </div> 
+      <br>
+    </mat-tab>
+    
+    <!-- Tab 2 -->
+    <mat-tab label="ATTENDANCE">
+        <div *ngFor='let atd of attendance'  style="margin-left:20%; margin-right: 20%; padding: 20px; display: flex; flex-direction: row;">
+       
+            <mat-card  class="card"> <b>{{atd.a_Date}}</b></mat-card>
+            <div style="padding-left :40px; width: 200px;"> 
+                <span style="color: rgb(69, 75, 74);"><b>{{atd.a_WeekDay}}</b></span><br>
+                <span style="color: orange;"><b>{{atd.a_reason}}</b></span><br>
+                <span>{{atd.a_type}}</span>
+                
+            </div>
+            <div style=" padding-left:40px; margin-top:5px" >
+                <button  (click)="openRegulrizeAtd()" style="margin-left: 20px; color: green; background-color: transparent;" mat-raised-button><span class="material-icons">
+                    add_circle
+                    </span></button>
+            </div>
+           
+    
+           </div> 
+    </mat-tab>
+   
+  </mat-tab-group>
+</div>

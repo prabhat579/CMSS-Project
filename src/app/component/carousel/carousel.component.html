@@ -1,0 +1,20 @@
+<h3 style="padding: 10px;"> ANNOUNCEMENTS</h3>
+
+<div id="carouselControls" class="carousel slide" data-ride="carousel" style="padding-top:0px;">
+
+    <div class="carousel-inner" role="listbox">
+        <img src="{{ getSlide() }}" alt="slide" >
+    </div>
+  
+  
+   <a (click)='getPrev()' class="left_btn"><span class="material-icons">
+    arrow_back_ios
+    </span></a>
+    <a (click)='getNext()' class="right_btn" ><span class="material-icons">
+        arrow_forward_ios
+        </span></a>
+       
+<!-- <a class="left_btn" id="slideLeft"><i class="far fa-arrow-a   lt-circle-left"></i></a>
+   <a class="right_btn" id="slideRight"><i class="far fa-arrow-alt-circle-right"></i></a> -->
+  
+  </div>
